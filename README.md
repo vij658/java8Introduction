@@ -14,6 +14,7 @@ Introduction to java 8
 10. Misc core java improvements - zip file etc..
 
 T, E, ?, ..., in java 
+T is used for any Type of data 
  default Consumer<T> andThen(Consumer<? super T> after) {
         Objects.requireNonNull(after);
         return (T t) -> { accept(t); after.accept(t); };
