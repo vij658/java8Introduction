@@ -1,6 +1,14 @@
 # java8Introduction
 Introduction to java 8
 
+https://www.youtube.com/playlist?list=PLSg8jHkYTg9H70Okvb5M7iWAk3EPpTn_q
+1. lambda expression -- no return type, no name, no access modifier.
+2. lambda can be assigned to a functional interface, invocation is to the functional interface's abstract method but you implement using lambda - it is an anonymous method.
+
+
+
+
+
 1. public static void main -
   a. non static methods cannot be referenced from static methods.
 2. for each
