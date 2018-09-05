@@ -4,6 +4,8 @@ Introduction to java 8
 https://www.youtube.com/playlist?list=PLSg8jHkYTg9H70Okvb5M7iWAk3EPpTn_q
 1. lambda expression -- no return type, no name, no access modifier.
 2. lambda can be assigned to a functional interface, invocation is to the functional interface's abstract method but you implement using lambda - it is an anonymous method.
+3. default method is always public, you can override default method in impl.
+4. diamond problem - when you inherit two interfaces and if it has the same method you dont which one will be invoked.
 
 
 
