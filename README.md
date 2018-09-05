@@ -5,7 +5,11 @@ https://www.youtube.com/playlist?list=PLSg8jHkYTg9H70Okvb5M7iWAk3EPpTn_q
 1. lambda expression -- no return type, no name, no access modifier.
 2. lambda can be assigned to a functional interface, invocation is to the functional interface's abstract method but you implement using lambda - it is an anonymous method.
 3. default method is always public, you can override default method in impl.
-4. diamond problem - when you inherit two interfaces and if it has the same method you dont which one will be invoked.
+4. diamond problem - when you inherit two classes and if it has the same method you dont which one will be invoked.
+  java 8 - when two interfaces are implemented by a class and those two have the same default methods, provide a override otherwise it will lead to daimond problem and compilation error.
+5. Predicate<T> , T can be of any datatype. it is a funcational interface, takes in a type and returns boolean.
+6. you can pass predicate as function to a method - method(p,array) --> method(Predicate p, array)
+7. joins in predicate or, and, negate. method(p.negate(),array), method(p1.and(p2),array), method(p1.or(p2),array)
 
 
 
